@@ -1,0 +1,75 @@
+.homeContainer{
+    background-color: rgb(140, 188, 173);
+    display: flex;
+    justify-content: flex-start !important;
+}
+
+.homeLogo{
+    object-fit: contain;
+    width: 13vw;
+}
+
+.homeHeader{
+    display: flex;
+    align-items: center;
+    background-color: rgb(221, 255, 255);
+}
+
+.homeTitle{
+    padding-left: 0;
+    font-size: medium;
+    font-weight: 600;
+    color: rgb(140, 188, 173);
+}
+
+.messageContainer{
+    overflow-y: scroll;
+}
+
+.leftMessage{
+    background-color: rgb(221, 255, 255);
+    width: 60vw;
+    padding: 1vh 2vw;
+    line-height: 3vh;
+    border-radius: 5px;
+    margin: 1vh 1vh;
+}
+
+.leftMessageContainer{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.rightMessage{
+    background-color: rgb(221, 255, 255);
+    width: 60vw;
+    padding: 1vh 2vw;
+    line-height: 3vh;
+    border-radius: 5px;
+    margin: 1vh 1vh;
+
+}
+.rightMessageContainer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.homeSendContainer{
+    border-top: 2px solid rgb(120, 149, 120);
+}
+
+.homeSendContainerForm{
+    display: flex;
+    align-items: center;
+    padding: 1vh 1vh;
+}
+
+.homeSendInput{
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.homeSendInputBtn{
+    --background: rgb(221, 255, 255);
+    color: rgb(120, 149, 120);
+}

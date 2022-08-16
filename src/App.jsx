@@ -28,7 +28,7 @@ import socketIOClient from "socket.io-client";
 
 setupIonicReact();
 
-const socket = socketIOClient('http://localhost:5000', { transports : ['websocket'] });
+const socket = socketIOClient('https://nodejs-chatapp-server.herokuapp.com', { transports : ['websocket'] });
 const App = () => {
   const [name, setName] = useState('')
   

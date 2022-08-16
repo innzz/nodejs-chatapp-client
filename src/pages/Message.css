@@ -1,0 +1,31 @@
+.messageContainer{
+    overflow-y: scroll;
+}
+
+.leftMessage{
+    background-color: rgb(221, 255, 255);
+    width: 60vw;
+    padding: 1vh 2vw;
+    line-height: 3vh;
+    border-radius: 5px;
+    margin: 1vh 1vh;
+}
+
+.leftMessageContainer{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.rightMessage{
+    background-color: rgb(221, 255, 255);
+    width: 60vw;
+    padding: 1vh 2vw;
+    line-height: 3vh;
+    border-radius: 5px;
+    margin: 1vh 1vh;
+
+}
+.rightMessageContainer{
+    display: flex;
+    justify-content: flex-end;
+}

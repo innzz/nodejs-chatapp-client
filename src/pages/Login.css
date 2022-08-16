@@ -1,0 +1,47 @@
+.loginOuterContainer{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(140, 188, 173);
+}
+
+.loginInnerContainer{
+    text-align: center;
+    padding: 3vh 3vw;
+}
+
+.loginInnerContainer > h3 {
+    padding: 4vh 2vw;
+    padding-bottom: 0vh;
+    font-size: larger;
+    margin: 2vh 0;
+}
+
+.loginInputContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 2vh 0;
+}
+
+.loginInputContainer > input {
+    padding: 1vh 2vw;
+    border-radius: 3px;
+    margin: 2vh 0;
+    border: none;
+}
+
+.loginInputContainer > a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.loginInputContainer > a > button {
+    font-size: large;
+    font-weight: 600;
+    padding: 2vh 4vw;
+    border-radius: 8px;
+    box-shadow: 0px 5px 8px 1px rgb(71, 88, 71);
+    background-color: rgb(120, 149, 120);
+}
